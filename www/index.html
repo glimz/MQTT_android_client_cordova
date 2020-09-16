@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Galadima Ahmed
+6th semester project MQTT
+-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <title>MQTT Client</title>
+</head>
+
+<body>
+    <div id="title">
+        <h3>Connection</h3>
+    </div>
+
+    <div id = "status">
+        <h4 style = "color:red;" id = "con">Not connected</h4><br>
+    </div>
+
+    <div id="host_form">
+        <form class="form1">
+            <label>Host *</label><br>
+            <input id="urlInput" type="text" value="talenttic.com"><br>
+            <label>Port *</label><br>
+            <input id="portInput" type="text" value="1883" /><br>
+            <label>ClientID *</label><br>
+            <input id="clientIdInput" type="text" /><br>
+            <button><a id="connectButton" onclick="websocketclient.connect();">Connect</a></button><br>
+            <button> <a id="disconnectButton" onclick="websocketclient.disconnect();">Disconnect</a></button><br><br>
+        </form>
+    </div>
+
+    <div id="user">
+        <form id="userInfo">
+            <label>Username</label><br>
+            <input id="userInput" type="text" /><br>
+            <label>Password</label><br>
+            <input id="pwInput" type="password" /><br>
+            <label>Keep Alive</label><br>
+            <input id="keepAliveInput" type="text" value="60" /><br>
+            <label>SSL</label><br>
+            <input id="sslInput" type="checkbox" /><br><br>
+        </from>
+    </div>
+
+
+
+    <div id="publishMain">
+        <h3>Publish</h3><br>
+        <form id="publish">
+            <button id="publishTopic1" type="text" value="myhome/room1/device1">Device 1</button><br>
+            <label>Tmyhome/room1/device1</label><br>
+            <button id="publishTopic2" type="text" value="myhome/room1/device2">Device 2</button><br>
+            <label>myhome/room1/device2</label><br>
+            <button id="publishTopic3" type="text" value="myhome/room2/device3">Device 3</button><br>
+            <label>myhome/room2/device3</label><br>
+        </form>
+    </div>
+
+    <div id="messagesMain">
+        <h3>Subscriptions</h3><br>
+
+        <form>
+            <label>Temperature From (myhome/room2/temperature)</label><br>
+            <textarea id="subscribed"></textarea><br>
+        </form>
+    </div>
+
+
+    <script src = "app.js"></script>
+</body>
+
+</html>

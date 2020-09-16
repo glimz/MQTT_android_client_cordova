@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="node_modules/cordova-android/framework/src"/>
+	<classpathentry kind="src" path="node_modules/properties-parser/test"/>
+	<classpathentry kind="src" path="platforms/android/app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="platforms/android/app/src/main/java"/>
+	<classpathentry kind="src" path="platforms/android/CordovaLib/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="platforms/android/CordovaLib/src"/>
+	<classpathentry kind="lib" path="platforms/android/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="platforms/android/app/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="platforms/android/app/build/intermediates/project_dex_archive/debug/out/80f96e037dc7de693e5db332c078952852a456b2dd60eb81a9022e62d0210397_0.jar"/>
+	<classpathentry kind="lib" path="platforms/android/app/build/intermediates/project_dex_archive/debug/out/80f96e037dc7de693e5db332c078952852a456b2dd60eb81a9022e62d0210397_1.jar"/>
+	<classpathentry kind="lib" path="platforms/android/CordovaLib/build/intermediates/compile_library_classes_jar/debug/classes.jar"/>
+	<classpathentry kind="lib" path="platforms/android/CordovaLib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="platforms/android/CordovaLib/build/intermediates/runtime_library_classes_jar/debug/classes.jar"/>
+	<classpathentry kind="lib" path="platforms/android/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="platforms/android/CordovaLib/build/intermediates/javac/debug/classes"/>
+</classpath>
